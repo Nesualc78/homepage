@@ -1,0 +1,43 @@
+/* CSS Document */
+
+body {
+	background-image: url(images/bg_red_lines_pix.gif);
+}
+p {color: #FE9C00}
+h1 {font-size: medium; color: #FE9C00}
+h2 {
+	color: #FE9C00;
+	font-size: medium;
+	text-decoration: underline;
+}
+#h2_bg {
+	background-color: #333;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: auto;
+	margin-left: 10px;
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+
+#paragraph_bg {
+	background-color: #333333;
+	background-image: url(file:///C|/Users/Nesualc/Desktop/Projects/homepage/images/bg_black_pix.gif);
+	background-repeat: repeat;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+td {
+	background-image: url(images/bg_gray_pix.gif);
+	background-repeat: repeat;
+}
