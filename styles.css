@@ -3,13 +3,15 @@
 body {
 	background-image: url(images/bg_red_lines_pix.gif);
 }
+
+
 p {color: #FE9C00}
 h1 {font-size: medium; color: #FE9C00}
 h2 {
 	color: #FE9C00;
 	font-size: medium;
-	text-decoration: underline;
 }
+
 #h2_bg {
 	background-color: #333;
 	margin-top: 10px;
@@ -22,6 +24,18 @@ h2 {
 	padding-left: 10px;
 }
 
+a:link {
+	color: #FE9C00;
+}
+a:hover {
+	color: #FFF;
+}
+a:visited {
+	color: #FE9C00;
+}
+a:active {
+	color: #FE9C00;
+}
 
 
 #paragraph_bg {
