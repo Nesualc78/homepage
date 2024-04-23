@@ -5,12 +5,9 @@ body {
 }
 
 
-p {color: #FE9C00}
-h1 {font-size: medium; color: #FE9C00}
-h2 {
-	color: #FE9C00;
-	font-size: medium;
-}
+p {color: #FE9C00;}
+
+h1, h2 {font-size: medium; color: #FE9C00;}
 
 #h2_bg {
 	background-color: #333;
