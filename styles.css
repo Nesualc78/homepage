@@ -24,7 +24,7 @@ a:link {
   color: #FE9C00;
   background-color: transparent;
   text-decoration: underline;
-
+}
 a:hover { 
   text-shadow: 0px -4px 5px #000000, 0 0 5px #ffffff, 0 0 20px #ffffff;
   color: #ffffff;
