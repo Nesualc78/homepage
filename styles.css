@@ -62,3 +62,18 @@ td {
 	background-image: url(images/bg_gray_pix.gif);
 	background-repeat: repeat;
 }
+.images {
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.footer {
+	font-size: xx-small;
+	text-align: right;
+	color: #FF9C00;
+	padding-top: 5px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
