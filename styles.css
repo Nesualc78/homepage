@@ -6,9 +6,18 @@ body {
 }
 
 
-p {color: #FE9C00;}
+p {
+	color: #FE9C00;
+	font-family: Terminal;
+	font-size: 14px;
+}
 
-h1, h2 {font-size: medium; color: #FE9C00;}
+h1, h2 {
+	font-size: medium;
+	color: #FE9C00;
+	font-family: Terminal;
+	font-weight: bold;
+}
 
 #h2_bg {
 	background-color: #333;
