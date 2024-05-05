@@ -9,14 +9,14 @@ body {
 p {
 	color: #FE9C00;
 	font-family: Terminal;
-	font-size: 14px;
+	font-size: small;
 }
 
 h1, h2 {
 	font-size: medium;
 	color: #FE9C00;
 	font-family: Terminal;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 #h2_bg {
