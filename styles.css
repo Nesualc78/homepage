@@ -16,19 +16,23 @@ h1, h2 {
 	font-size: medium;
 	color: #FE9C00;
 	font-family: Terminal;
-	font-weight: normal;
+	font-weight: bold;
 }
+#left_col {
+	background-image: url(images/left_side_col.gif);
+	background-repeat: repeat-y;
+}
+#right_col {
+	background-image: url(images/right_side_col.gif);
+	background-repeat: repeat-y;
+}
+
+
 
 #h2_bg {
 	background-color: #333;
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-bottom: auto;
-	margin-left: 10px;
-	padding-top: 1px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	margin: 0px;
+	padding: 0px;
 }
 a:link {
   color: #FE9C00;
@@ -59,15 +63,14 @@ a:active {
 #paragraph_bg {
 	background-image: url(images/bg_black_pix.gif);
 	background-repeat: repeat;
-	margin-top: 10px;
-	margin-right: 10px;
 	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 1px;
-	padding-right: 10px;
 	padding-bottom: 10px;
-	padding-left: 10px;
 }
+#footer_bg {
+	background-image: url(images/footer.gif);
+	background-repeat: no-repeat;
+}
+
 td {
 	background-image: url(images/bg_gray_pix.gif);
 	background-repeat: repeat;
@@ -82,8 +85,7 @@ td {
 	font-size: xx-small;
 	text-align: right;
 	color: #FF9C00;
-	padding-top: 5px;
-	padding-right: 12px;
+	padding-right: 126px;
 	padding-bottom: 5px;
-	padding-left: 0px;
+	padding-left: 70px;
 }
