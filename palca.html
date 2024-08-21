@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
 <title>Nesualc.Net</title>
 
-<script src="script.js" defer></script>
+<script src="audio/palca.js" defer></script>
 </head>
 <body>
   <header>
@@ -16,7 +16,7 @@
   
   <nav>
       <h1>
-        HOME |
+        <a href="index.html">HOME</a> |
         <a href="noise.html">NOISES</a> |
         <a href="presets.html">PRESETS &amp; PATCHES</a> |
         <a href="links.html">LINKS</a>
@@ -27,16 +27,13 @@
      
       <div class="middle">
         
-        <h2>Welcome to Nesualc Net</h2> 
-        <p>Do you need some noise in your life? if so you have come to the right place.</p>
-        <p>Remember to adjust your volume accordingly as some noise can be quite harsh.</p>
-        <p>Click <a href="noise.html">here</a> to go to my noise collection.</p>
-        <h2>Updates:</h2>
-        <p>[15-05-2024] Noise added: <a href="palca.html">Palca Educational Systems</a></p>
-        <p>[16-05-2024] Noise added: <a href="model15.html">Moog Model 15 App</a></p>
-        <p><br /></p>
-        <p>Here is a stereo test to get your ears tuned.</p>
-        <h2>TEST FILE</h2>
+        <h2>Palca Educational Systems Model PA-5920R</h2> 
+        <img src="images/palca.gif" width="350" height="350" class="images">
+        <p>I got this one at my son's school when they were selling out old inventory.
+           It has an oval speaker in the back, but you can connect it to an external speaker or use it as a normal tape recorder. 
+           The mic/line in volume can be mixed with tape volume and there is a basic tone control.</p>
+        
+        <p>This sample is a mix of AM noise feed through the line in and using the tone control and preamp gain.</p>
     
         <p><button id="play">PLAY</button>
         <button id="stop" disabled>STOP</button></p>
@@ -65,7 +62,7 @@
         <br />
         If the stop time is lower or equal to the start time, it'll loop over the
            whole track.</p>
-     
+        
       </div>
   
   </main>
