@@ -65,7 +65,7 @@ h2 {
 	float: right;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	padding-right: 52px;
+	padding-right: 5px;
 }
 
 #play {
@@ -103,6 +103,6 @@ h2 {
 	text-align: center;
 	text-shadow: 1px 4px 5px #333333, 0 0 5px #ffffff, 0 0 20px #ffffff;
 	color: #FFFFFF;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	font-family: Consolas;
 }
